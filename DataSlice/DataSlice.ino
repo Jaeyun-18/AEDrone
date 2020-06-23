@@ -19,9 +19,7 @@ void loop()
     }
     char cTempData[3];
     str2.substring(0, 3).toCharArray(cTempData, 3);
-    Serial.println(cTempData);
     int nR = atoi(cTempData);
-    Serial.println(nR);
     str2 = "   ";
     i+=3;
   }
@@ -35,18 +33,7 @@ void loop()
     char cTempData[4];
     str1.substring(0, 4).toCharArray(cTempData, 4);
     int nR = atoi(cTempData);
-    Serial.println(nR);
     str1 = "    ";
     i+=4;
   }
-
-  if(a[i] == 'a')
-  {
-    while(1)
-    {
-      
-    }
-  }
 }
-
-//미래에 재윤아 이거 오류 고치고 똑바로 작동되는지 확인해야 된다 얼것냐
